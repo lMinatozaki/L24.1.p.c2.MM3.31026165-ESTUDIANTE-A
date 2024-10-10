@@ -26,18 +26,6 @@ export default class Cl_main {
             Nota promedio: ${estudiante1.promedio().toFixed(2)}
             <br>
             ${estudiante1.reporteBeca()}
-            <br>
-            
-            <br>
-            Nombre del estudiante: ${estudiante2.nombre}
-            <br>
-            Acumulado de notas: ${estudiante2.acumuladoNotas}
-            <br>
-            Cantidad de materias: ${estudiante2.cantidadMaterias}
-            <br>
-            Nota promedio: ${estudiante2.promedio().toFixed(2)}
-            <br>
-            ${estudiante2.reporteBeca()}
         `;
     }
 }
